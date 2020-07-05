@@ -10,6 +10,7 @@ def load_library(file_path)
     arrays[0]
     some_emoticons[name][:japanese] = arrays[1]
 end
+some_emoticons
 end
 
 def get_japanese_emoticon
