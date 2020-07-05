@@ -13,7 +13,7 @@ end
 some_emoticons
 end
 
-def get_japanese_emoticon(file_path, jap_emo)
+def get_japanese_emoticon(file_path, eng_emo)
   library = load_library('./lib/emoticons.yml')
   library.each do |meaning, emotes|
     return emotes[:japanese] if
